@@ -14,7 +14,7 @@ import {
   Mail,
   MapPin,
   Phone,
-} from "Lucide-react";
+} from "lucide-react";
 
 import kaiserImage from "../assets/images/kaiserportfolio.png";
 import myImage from "../assets/images/myimage.jpeg";
