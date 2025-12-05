@@ -7,13 +7,13 @@ import ContactSection from '../Sections/ContactSection'
 
 const Home = () => {
   return (
-    <>
+    <div className='overflow-hidden'>
       <HeroSection />
       <SkillsSection/>
       <ProjectsSection/>
       <AboutSection/>
       <ContactSection/>
-    </>
+    </div>
   )
 }
 

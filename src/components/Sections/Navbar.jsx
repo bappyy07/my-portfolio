@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return <motion.nav
     style={{ opacity: 1 }}
-    className={`fixed top-0 w-full z-50 px-6 py-4 ${isDarkMode ? "bg-gray-950/80" : "bg-gray-50/80"} backdrop-blur-md border-b ${isDarkMode ? "border-gray-800" : "border-gray-200"}`}
+    className={`fixed overflow-hidden top-0  w-full z-50 px-6 py-4 ${isDarkMode ? "bg-gray-950/80" : "bg-gray-50/80"} backdrop-blur-md border-b ${isDarkMode ? "border-gray-800" : "border-gray-200"}`}
   >
     <div className='max-w-7xl mx-auto flex justify-between'>
       <motion.a
